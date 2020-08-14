@@ -1,0 +1,375 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .about2ndpart2 img {
+        padding-top: 90%;
+        margin-bottom: 100px !important;
+    }
+
+    .specialityoverlay h6 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .social a {
+        margin: 1px;
+    }
+
+    label {
+        margin-left: 45%;
+    }
+
+    .abouttime button {
+        margin-left: 20%;
+    }
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about2ndpart2 img {
+        padding-top: 133%;
+        margin-bottom: 100px !important;
+    }
+
+    .specialityoverlay h6 {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    .social a {
+        margin: 1px;
+    }
+
+    label {
+        margin-left: 14%;
+        transform: translateX(0%);
+    }
+
+    .abouttime button {
+        margin-left: 14%;
+        transform: translateX(-0%);
+    }
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.9);
+        padding: 15px 0 !important;
+    }
+
+    .navbar-toggler-icon {
+        color: #fff;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    .nav-item {
+        padding: 10px 0;
+    }
+
+    .aboutcontact p {
+        padding-right: 0;
+    }
+
+    .aboutaddress h3 {
+        padding-top: 20px;
+    }
+
+    .abouttext p {
+        font-size: 15px;
+        color: #0b0101;
+        text-align: center;
+        margin-top: 0;
+        line-height: 23px;
+        text-transform: capitalize;
+        padding: 0;
+    }
+
+    .footer h2 {
+        font-size: 20px;
+    }
+
+    .social a {
+        height: 32px;
+        width: 32px;
+        font-size: 21px;
+        border-radius: 50%;
+        margin: 0px;
+        padding-left: 6px;
+    }
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .about2ndpart2 img {
+        padding-top: 5% !important;
+        margin-bottom: 100px !important;
+    }
+
+    .specialityoverlay h6 {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    .social a {
+        margin: 1px;
+    }
+
+    label {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .abouttime button {
+        margin-left: 14%;
+        transform: translateX(-0%);
+    }
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.9);
+        padding: 15px 0 !important;
+    }
+
+    .navbar-toggler-icon {
+        color: #fff;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    .nav-item {
+        padding: 10px 0;
+    }
+
+    .aboutcontact p {
+        padding-right: 0;
+    }
+
+    .aboutaddress h3 {
+        padding-top: 20px;
+    }
+
+    .abouttext p {
+        font-size: 15px;
+        color: #0b0101;
+        text-align: center;
+        margin-top: 0;
+        line-height: 23px;
+        text-transform: capitalize;
+        padding: 0;
+    }
+
+    .footer h2 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .social a {
+        height: 32px;
+        width: 32px;
+        font-size: 21px;
+        border-radius: 50%;
+        margin: 0px;
+        padding-left: 6px;
+    }
+
+    .about2ndpart1 {
+        background: #141723;
+        padding: 30px;
+        position: static;
+        margin-top: 40px;
+    }
+
+    .abouttext h2 {
+        padding-top: 60px;
+    }
+
+    .menubtn {
+        margin-left: 44%;
+        transform: translateX(-36%);
+    }
+
+    .bannertext {
+        padding-top: 50%;
+    }
+
+    .bannertext h1 {
+        font-size: 56.5px;
+    }
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .bannertext {
+        padding-top: 50%;
+    }
+
+    .about2ndpart2 img {
+        padding-top: 5% !important;
+        margin-bottom: 100px !important;
+    }
+
+    .specialityoverlay h6 {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    .social a {
+        margin: 1px;
+    }
+
+    label {
+        margin-left: 0;
+        transform: translateX(15%);
+        padding-top: 20px;
+    }
+
+    input,
+    select {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 0px;
+    }
+
+    .Bookingbtn {
+        padding: 10px 16px;
+        margin-left: 32%;
+        transform: translateX(-26%);
+        margin-top: 20px;
+    }
+
+    .abouttime button {
+        margin-left: 14%;
+        transform: translateX(-0%);
+    }
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.9);
+        padding: 15px 0 !important;
+    }
+
+    .navbar-toggler-icon {
+        color: #fff;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    .nav-item {
+        padding: 10px 0;
+    }
+
+    .aboutcontact p {
+        padding-right: 0;
+    }
+
+    .aboutaddress h3 {
+        padding-top: 20px;
+    }
+
+    .abouttext p {
+        font-size: 15px;
+        color: #0b0101;
+        text-align: center;
+        margin-top: 0;
+        line-height: 23px;
+        text-transform: capitalize;
+        padding: 0;
+    }
+
+    .footer h2 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .social a {
+        height: 32px;
+        width: 32px;
+        font-size: 21px;
+        border-radius: 50%;
+        margin: 0px;
+        padding-left: 6px;
+    }
+
+    .about2ndpart1 {
+        background: #141723;
+        padding: 30px;
+        position: static;
+        margin-top: 40px;
+    }
+
+    .abouttext h2 {
+        padding-top: 60px;
+    }
+
+    .menubtn {
+        margin-left: 0;
+        transform: translateX(2%);
+        font-size: 15px;
+        padding: 13px 14px;
+    }
+
+    .bannertext h1 {
+        font-size: 56.5px;
+    }
+
+    .bannertext img {
+        margin-left: 45%;
+    }
+
+    .speciality h2 {
+        font-size: 44.7px;
+    }
+
+    .menutitel h2 {
+        font-size: 45.7px;
+    }
+
+    .bllock {
+        display: none;
+    }
+
+    .itemlist p {
+        font-size: 14px;
+        padding-right: 0%;
+        text-align: center;
+    }
+
+    .itemlist h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .maindish {
+        padding: 20px;
+        border-bottom: 2px solid #fff;
+        margin-top: 30px;
+    }
+
+    .itempart h4 {
+        padding-top: 60px;
+        border-bottom: 1px solid red;
+    }
+
+    .booking h2 {
+        font-size: 42.7px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

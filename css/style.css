@@ -1,0 +1,543 @@
+/*goole font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Vollkorn&family=Yesteryear&display=swap');
+/*googole font end*/
+/*common css start*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+body{
+overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*end of common css*/
+.navbar{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+.navbar:before{
+    position: absolute;
+    content: '';
+    background: #ddc7b2;
+    height: 1px;
+    width: 84%;
+    left: 8%;
+    top: 100%;
+}
+.nav-item{
+    padding: 27px 0;
+}
+.nav-link {
+	margin-left: 30px;
+	color: #fff;
+    font-family: 'Vollkorn', serif;
+    font-weight:400;
+    font-size: 15px;
+    transition: .3s ease;
+    text-transform: capitalize;
+}
+.nav-link.active,
+.nav-link:hover{
+    color: #bf9e7b;
+}
+a:hover{
+    text-decoration: none;
+}
+/**/
+/*Banner start*/
+.banner{
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    height: 100vh;
+    position: relative;
+}
+.banneroverlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.bannertext{
+    padding-top: 35%;
+}
+.bannertext img{
+    margin-left: 217px;
+    padding-bottom: 50px;
+}
+.bannertext h1{
+    font-size: 55.5px;
+    font-family: 'Yesteryear', cursive;
+    font-weight:400;
+    color: #de882d;
+}
+.bannertext h6{
+    font-size: 20px;
+    font-family: 'Vollkorn', serif;
+    font-weight:400;
+    color: #fff;
+}
+.bannertext p {
+	font-size: 17px;
+	font-family: 'Vollkorn', serif;
+	font-weight: 400;
+	color: #ffffff;
+	padding-top: 20px;
+	margin-right: 10%;
+}
+/*Banner end*/
+/*about start*/
+.about{
+    position: relative;
+    background: #e0dbdb;
+}
+.abouttext h2{
+    font-size: 55.7px;
+    font-family: 'Yesteryear', cursive;
+    font-weight:400;
+    color: #de882d;
+    text-align: center;
+    padding-top: 120px;
+}
+.abouttext p {
+	font-size: 15px;
+	color: #0b0101;
+	text-align: center;
+	margin-top: 40px;
+	padding: 0 45px;
+	line-height: 30px;
+    text-transform: capitalize;
+}
+.about2ndpart1 {
+	background: #141723;
+	padding: 30px;
+	position: absolute;
+	top: -32%;
+	right: 0;
+	margin: 16px;
+}
+.aboutcontact h3{
+    color: #de882d;
+    font-family: 'Vollkorn', serif;
+    font-weight:400;
+    font-size: 25px;
+}
+.aboutcontact p {
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: #fff;
+	padding-top: 20px;
+	letter-spacing: 1px;
+	padding-right: 41px;
+}
+.aboutaddress h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 30px;
+}
+.aboutaddress p{
+    font-family: 'Vollkorn', serif;
+    font-weight:400;
+    font-size:13px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.aboutaddress a{
+    color: #de882d;
+    text-transform: lowercase;
+    font-size: 13px;
+    padding-bottom: 2px;
+    position: relative;
+}
+.aboutaddress a:before{
+    position: absolute;
+    content: '';
+    background: #de882d;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    top: 100%;
+}
+.abouttime h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 15px;
+}
+.abouttime p{
+    font-family: 'Vollkorn', serif;
+    font-weight:400;
+    font-size:13px;
+    color: #fff;
+    padding-top: 10px
+}
+.abouttime button {
+	padding: 10px 15px;
+	border: 1px solid #de882d;
+	background: transparent;
+	color: #fff;
+	 margin-top: 16px; 
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+.abouttime button:focus{
+    outline: 0;
+    background: #fff;
+    color: #000;
+}
+.about2ndpart2{
+    
+}
+.about2ndpart2 img{
+    padding-top: 65%;
+    width: 100% !important;
+    margin-bottom: 30px;
+    height: 90%;
+}
+/*about End*/
+/*speciality part start*/
+.speciality{
+    padding: 70px 0;
+}
+.speciality h2{
+    font-size: 55.7px;
+    font-family: 'Yesteryear', cursive;
+    font-weight:400;
+    color: #de882d;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.speciality p {
+	font-family: 'Vollkorn', serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+	padding: 0 21%;
+}
+.specialitypart {
+	position: relative;
+	box-shadow: 5px 3px 11px #000;
+    transition: .3s ease;
+    margin: 40px 0;
+}
+.specialitypart:hover{
+    transform: scale(1.05);
+}
+.specialityoverlay{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    top:75%;
+    background:#fff;
+    color: #000;
+}
+.specialityoverlay h6{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.specialityoverlay a{
+    color: #de882d;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 17px;
+    margin-left: 50%;
+    padding: 4px 8px;
+    transform: translateX(-50%);
+    transition: .3s ease;
+    margin-bottom: 10px;
+}
+.specialityoverlay a:hover{
+    background: #de882d;
+    color: #000;
+    border: none;
+}
+/*speciality part end*/
+/*menu part start*/
+.menu{
+    background: #141723;
+    padding: 80px;
+}
+.menutitel h2{
+    font-size: 55.7px;
+    font-family: 'Yesteryear', cursive;
+    font-weight:400;
+    color: #de882d;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.menutitel p{
+    font-family: 'Vollkorn', serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+    text-transform: capitalize;
+}
+.itempart h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    color: #de882d;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    padding-top: 35px;
+    margin-bottom: 30px;
+}
+.maindish{
+    padding: 20px;
+}
+.itemlist h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 15px;
+    color: #fff;
+}
+.itemlist p {
+	font-family: 'Vollkorn', serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #fff;
+	padding-right: 30%;
+}
+.itemprice h5 {
+	text-align: center;
+	color: #de882d;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 34.23px;
+	margin-bottom: 0;
+	padding-top: 10%;
+}
+.menubtn {
+	padding: 13px 50px;
+	background: transparent;
+	color: #fff;
+	margin-left: 50%;
+    border: 1px solid #de882d;
+    transform: translateX(-50%);
+    margin-top: 40px;
+}
+.menubtn:focus{
+    outline: 0;
+    background: #fff;
+    color: #000;
+    border: 0;
+}
+/*menu part end*/
+/*booking start*/
+.booking {
+    padding: 80px;
+    background: #e0dbdb;
+}
+.booking h2{
+    font-size: 55.7px;
+    font-family: 'Yesteryear', cursive;
+    font-weight:400;
+    color: #de882d;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.booking p{
+    font-family: 'Vollkorn', serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+    text-transform: capitalize;
+}
+input,
+select{
+    width: 80%;
+    margin-left: 10%;
+    height: 42px;
+    text-align: center;
+    letter-spacing: 3px;
+    border: 0;
+}
+label {
+	margin-left: 50%;
+    transform: translateX(-50%);
+    padding-top: 50px;
+}
+.Bookingbtn {
+	padding: 10px 50px;
+	background: #de882d;
+    border: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    transition: .3s ease;
+}
+.Bookingbtn:hover{
+    box-shadow: 2px 3px 10px #000;
+}
+.Bookingbtn:focus{
+    outline: 0;
+    background: #fff;
+    color: #000;
+}
+/*booking end*/
+/*footer start*/
+.footer{
+    padding: 50px 0;
+    background: #141723;
+}
+.footer h2{
+    color: #de882d;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+.footer p {
+	font-family: 'Vollkorn', serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #fff;
+	margin-bottom: 0;
+	padding: 5px 0;
+	letter-spacing: .5px;
+}
+.footerbtn {
+	padding: 5px 26px;
+	background: #de882d;
+	color: #fff;
+	margin-top: 20px;
+    border: 0;
+    transition: .2s ease;
+}
+.footerbtn:hover{
+    box-shadow: 2px 3px 10px #fff;
+}
+.footerbtn:focus{
+    outline: 0;
+    background: #fff;
+    color: #000;
+}
+.social {
+	margin-top: 9%;
+}
+.social a {
+	height: 40px;
+	width: 40px;
+	background:#de882d;
+	font-size: 26px;
+	border-radius: 50%;
+	margin: 6px;
+	padding-left: 8px;
+    color: #fff;
+    transition: .2s ease;
+}
+.social a:hover{
+    box-shadow: 2px 3px 10px #fff;
+}
+.social a:focus{
+    background:#fff;
+    color: #000;
+    border: .5px solid #de882d;
+}
+/**/
+.copyright{
+    background: #e0dbdb;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+    padding-top: 3px;
+}
+.copyright p {
+	padding-top: 1%;
+}
+/*footer end*/
+/*backtotop*/
+.back-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    background-color: #ffc600;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 5px;
+    z-index: 99;
+    text-align: center;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    display: none;
+}
+.back-to-top:hover{
+    color: #fff;
+    background-color: #021d3a;
+}
+/*backtotop*/
+/*stricky */
+.navigation.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.75);
+	z-index: 999;
+    border-bottom: 1px solid #cecece;
+    -webkit-box-shadow: 0px 0px 191px 0px rgba(0,0,0,0.06);
+    box-shadow: 0px 0px 191px 0px rgba(0,0,0,0.06);
+    -webkit-animation: sticky 2s;
+    animation: sticky 2s;
+}
+/*For Animation*/
+@-webkit-keyframes sticky {
+    0%{
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+    100%{
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%)
+    }
+}
+
+@keyframes sticky {
+    0%{
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+    100%{
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%)
+    }
+}
+/*stricky */
+/*preloader*/
+
+/*preloader*/
